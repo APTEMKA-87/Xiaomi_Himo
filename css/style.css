@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -67,7 +71,7 @@ body {
 }
 
 .bike {
-    padding: 100px 0150px;
+    padding: 100px 0 0px;
 }
 
 .bike__inner {
@@ -111,6 +115,11 @@ body {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 1.1em;
+    transition: all .3s;
+}
+
+.bike__link:hover {
+    background-color: #ff4040;
 }
 
 .bike-slider .slick-dots {
@@ -171,7 +180,8 @@ body {
 }
 
 .info {
-    margin-bottom: 150px;
+    padding-top: 150px;
+    margin-bottom: 50px;
 }
 
 .info__inner {
@@ -204,6 +214,7 @@ body {
 }
 
 .characteristics {
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -394,7 +405,12 @@ body {
     letter-spacing: 1.1em;
     text-transform: uppercase;
     cursor: pointer;
-    }
+    transition: all .3s;
+}
+
+.form__btn:hover {
+    background-color: #ff4040;
+}
 
 .footer {
     background-color: #131313;
