@@ -466,6 +466,11 @@ body {
         padding: 0;
     }
 
+    .characteristics {
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .bike__link {
         margin-top: 30px;
     }
@@ -499,6 +504,29 @@ body {
 @media (max-width: 991px) {
     .menu {
         margin-right: 0;
+    }
+
+    .characteristics__inner {
+        flex-wrap: wrap;
+    }
+
+    .characteristics__img {
+        order: -1;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .characteristics__items {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    .characteristics__name {
+        flex-basis: 50%;
+    }
+
+    .characteristics_desc {
+        flex-basis: 50%;
     }
 }
 
